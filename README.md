@@ -1,7 +1,4 @@
 <img src="header.svg" width="100%" alt="PVL-OS terminal boot"/>
-
-<!-- ────────────────────────────────────────────────────────── -->
-
 <img src="skills.svg" width="100%" alt="skills self-assessment"/>
 
 <!-- ────────────────────────────────────────────────────────── -->
