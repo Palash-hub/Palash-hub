@@ -1,8 +1,8 @@
-<img src="assets/header.svg" width="100%" alt="PVL-OS terminal boot"/>
+<img src="header.svg" width="100%" alt="PVL-OS terminal boot"/>
 
 <!-- ────────────────────────────────────────────────────────── -->
 
-<img src="assets/skills.svg" width="100%" alt="skills self-assessment"/>
+<img src="skills.svg" width="100%" alt="skills self-assessment"/>
 
 <!-- ────────────────────────────────────────────────────────── -->
 
@@ -23,7 +23,7 @@
 
 <!-- ────────────────────────────────────────────────────────── -->
 
-<img src="assets/ticker.svg" width="100%" alt="current operations ticker"/>
+<img src="ticker.svg" width="100%" alt="current operations ticker"/>
 
 ### `> stats --uplink`
 
