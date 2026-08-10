@@ -47,7 +47,27 @@ pavel@arch:~$ cat contacts.txt
 │ tg    │ t.me/@Sopeake          │
 │ email │ sobaliupavel@yandex.ru │
 └───────┴────────────────────────┘
+<sub>↳ write: <a href="https://t.me/username">Telegram</a> · <a href="mailto:you@example.com">Email</a></sub>
 
-<sub>↳ write: <a href="https://t.me/username">Telegram</a> · <a href="mailto:you@example.com">Email</a>
+pavel@arch:~$ cat about.txt
+Программирование для меня — лишь одна из
+граней интереса к сложным системам и смыслам.
+  ▸ Философия · литература
+    Экзистенциализм и классика — Камю, Сартр,
+    Декарт, Сенека, Мамлеев, Гамсун. Тексты про
+    природу человека, одиночество и структуру мысли.
+  ▸ Музыка
+    Смысловая поэзия с сильным текстом и хлёсткими
+    панчами — либо лёгкое атмосферное звучание.
+  ▸ ARPG · игры
+    Глубокие механики, проработанный endgame,
+    билдострой и progression-системы.
+  ▸ Кино
+    Экзистенциальный изоляционизм; драмы, где
+    мрачность и глубина сплетаются с тонким юмором.
+  ▸ Разработка
+    C#/.NET и Python, изучаю Go, архитектуру
+    данных и DevOps-инструменты.
+
 <img src="ticker.svg" height="26" alt="current ops"/>
 </pre>
