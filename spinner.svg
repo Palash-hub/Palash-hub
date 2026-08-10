@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 26" font-family="'DejaVu Sans Mono','Courier New',monospace">
+<g transform="translate(11,13)">
+<circle r="8" fill="none" stroke="#6b7280" stroke-width="2" stroke-opacity="0.35"/>
+<path d="M0 -8 A 8 8 0 0 1 8 0" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round">
+<animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="0.9s" repeatCount="indefinite"/></path>
+</g>
+<text x="28" y="18" font-size="14" fill="#6b7280">SYNC</text>
+</svg>

@@ -1,23 +1,67 @@
-<img src="header.svg" width="100%" alt="PVL-OS terminal boot"/>
-<img src="skills.svg" width="100%" alt="skills self-assessment"/>
+```text
+██████╗  █████╗ ██╗   ██╗███████╗██╗     
+██╔══██╗██╔══██╗██║   ██║██╔════╝██║     
+██████╔╝███████║██║   ██║█████╗  ██║     
+██╔═══╝ ██╔══██║╚██╗ ██╔╝██╔══╝  ██║     
+██║     ██║  ██║ ╚████╔╝ ███████╗███████╗
+╚═╝     ╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚══════╝
+                                         
 
-<!-- ────────────────────────────────────────────────────────── -->
+  C#/.NET backend  ·  ML practitioner  ·  Arch Linux
+  СПбГУТ '26  ·  Санкт-Петербург
+```
 
-### `> ls ./projects`
+<img src="assets/online.svg" alt="online"/> &nbsp; <img src="assets/prompt.svg" alt="prompt"/>
 
-| repo | описание | стек |
-|---|---|---|
-| [**MOCChecker**](https://github.com/Palash-hub/MOCChecker) | проверяет ссылки в Obsidian-хранилище | `C#` |
-| **nfad** *(поправь ссылку)* | детектор сетевых аномалий по NetFlow/IPFIX | `Python` `XGBoost` `CIC-IDS2017` |
-| **MiniBank** *(поправь ссылку)* | учебный банковский движок | `C#` `Clean Architecture` |
+```text
+pavel@arch:~$ neofetch
+┌───────────────────────────────────────────────────┐
+│ OS      Arch Linux x86_64  (btw)                  │
+│ Role    backend & ML  ·  СПбГУТ '26               │
+│ Lang    C#/.NET  ·  Python вторым номером         │
+│ Now     metrics service · матстат · JMLC->ИТМО    │
+│ Off     кино · стихи · манга · modded MC over LAN │
+└───────────────────────────────────────────────────┘
+```
 
-### `> cat contacts.txt`
+```text
+pavel@arch:~$ ./skills --self-assessment
+// самооценка, не сертификат. Go честно отстаёт.
 
-<!-- замени username / адрес на свои -->
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/username)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:you@example.com)
-[![hh.ru](https://img.shields.io/badge/hh.ru-D6001C?style=flat-square)](https://hh.ru/resume/xxxxxxxx)
+C# / .NET         [██████████████████░░░░]  82%
+ASP.NET Core      [█████████████████░░░░░]  76%
+EF Core / SQL     [███████████████░░░░░░░]  70%
+Python · ML/data  [███████████████░░░░░░░]  66%
+Go                [███████░░░░░░░░░░░░░░░]  32%
+Arch ricing       [█████████████████████░]  94%
+```
 
-<!-- ────────────────────────────────────────────────────────── -->
+<img src="assets/spinner.svg" alt="sync"/>
 
-<img src="ticker.svg" width="100%" alt="current operations ticker"/>
+```text
+pavel@arch:~$ ls ./projects
+┌────────────┬────────────────────────────┬──────────────────┐
+│ repo       │ описание                   │ стек             │
+├────────────┼────────────────────────────┼──────────────────┤
+│ MOCChecker │ проверка ссылок в Obsidian │ C#               │
+│ nfad       │ детектор сетевых аномалий  │ Python · XGBoost │
+│ MiniBank   │ учебный банковский движок  │ C# · Clean Arch  │
+└────────────┴────────────────────────────┴──────────────────┘
+```
+
+<sub>↳ open: <a href="https://github.com/Palash-hub/MOCChecker">MOCChecker</a> · nfad <em>(поправь ссылку)</em> · MiniBank <em>(поправь ссылку)</em></sub>
+
+```text
+pavel@arch:~$ cat contacts.txt
+┌───────┬───────────────────────┐
+│ ch    │ addr                  │
+├───────┼───────────────────────┤
+│ tg    │ t.me/username         │
+│ email │ you@example.com       │
+│ hh    │ hh.ru/resume/xxxxxxxx │
+└───────┴───────────────────────┘
+```
+
+<sub>↳ write: <a href="https://t.me/username">Telegram</a> · <a href="mailto:you@example.com">Email</a> · <a href="https://hh.ru/resume/xxxxxxxx">hh.ru</a></sub>
+
+<img src="assets/ticker.svg" width="100%" alt="current ops"/>
