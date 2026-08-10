@@ -11,7 +11,7 @@
   СПбГУТ '26  ·  Санкт-Петербург
 ```
 
-<img src="assets/online.svg" alt="online"/> &nbsp; <img src="assets/prompt.svg" alt="prompt"/>
+<img src="online.svg" alt="online"/> &nbsp; <img src="prompt.svg" alt="prompt"/>
 
 ```text
 pavel@arch:~$ neofetch
@@ -36,7 +36,7 @@ Go                [███████░░░░░░░░░░░░░�
 Arch ricing       [█████████████████████░]  94%
 ```
 
-<img src="assets/spinner.svg" alt="sync"/>
+<img src="spinner.svg" alt="sync"/>
 
 ```text
 pavel@arch:~$ ls ./projects
@@ -64,4 +64,4 @@ pavel@arch:~$ cat contacts.txt
 
 <sub>↳ write: <a href="https://t.me/username">Telegram</a> · <a href="mailto:you@example.com">Email</a> · <a href="https://hh.ru/resume/xxxxxxxx">hh.ru</a></sub>
 
-<img src="assets/ticker.svg" width="100%" alt="current ops"/>
+<img src="ticker.svg" width="100%" alt="current ops"/>
