@@ -10,9 +10,7 @@
   C#/.NET backend  ·  ML practitioner  ·  Arch Linux
   СПбГУТ '26  ·  Санкт-Петербург
 
-
 <img src="online.svg" height="22" alt="online"/> &nbsp; <img src="prompt.svg" height="22" alt="prompt"/>
-
 
 pavel@arch:~$ neofetch
 ┌───────────────────────────────────────────────────┐
@@ -23,22 +21,15 @@ pavel@arch:~$ neofetch
 │ Off     кино · стихи · манга · modded MC over LAN │
 └───────────────────────────────────────────────────┘
 
-
-
 pavel@arch:~$ ./skills --self-assessment
-
 C# / .NET         ███████████████████───  87%
 ASP.NET Core      █████████████████─────  76%
 EF Core / SQL     ███████████████───────  70%
 Python · ML/data  ███████████████───────  66%
 Go                ███████───────────────  32%
 Arch ricing       ████████████████──────  72%
-RPG               ██████████████████████  100%
-
-
+RPG games         ██████████████████████  100%
 <img src="spinner.svg" height="22" alt="sync"/>
-
-
 pavel@arch:~$ ls ./projects
 ┌────────────┬────────────────────────────┬──────────────────┐
 │ repo       │ описание                   │ стек             │
@@ -48,8 +39,6 @@ pavel@arch:~$ ls ./projects
 │ MiniBank   │ учебный банковский движок  │ C# · Clean Arch  │
 └────────────┴────────────────────────────┴──────────────────┘
 
-
-
 pavel@arch:~$ cat contacts.txt
 ┌───────┬────────────────────────┐
 │ ch    │ addr                   │
@@ -57,7 +46,6 @@ pavel@arch:~$ cat contacts.txt
 │ tg    │ t.me/@Sopeake          │
 │ email │ sobaliupavel@yandex.ru │
 └───────┴────────────────────────┘
-
 
 <sub>↳ write: <a href="https://t.me/username">Telegram</a> · <a href="mailto:you@example.com">Email</a> · <a href="https://hh.ru/resume/xxxxxxxx">hh.ru</a></sub>
 
