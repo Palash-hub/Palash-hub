@@ -48,7 +48,6 @@ pavel@arch:~$ cat contacts.txt
 │ email │ sobaliupavel@yandex.ru │
 └───────┴────────────────────────┘
 
-<sub>↳ write: <a href="https://t.me/username">Telegram</a> · <a href="mailto:you@example.com">Email</a> · <a href="https://hh.ru/resume/xxxxxxxx">hh.ru</a></sub>
-
+<sub>↳ write: <a href="https://t.me/username">Telegram</a> · <a href="mailto:you@example.com">Email</a>
 <img src="ticker.svg" height="26" alt="current ops"/>
 </pre>
