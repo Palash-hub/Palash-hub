@@ -11,7 +11,7 @@
   СПбГУТ '26  ·  Санкт-Петербург
 ```
 
-<img src="online.svg" alt="online"/> &nbsp; <img src="prompt.svg" alt="prompt"/>
+<img src="assets/online.svg" height="22" alt="online"/> &nbsp; <img src="assets/prompt.svg" height="22" alt="prompt"/>
 
 ```text
 pavel@arch:~$ neofetch
@@ -28,15 +28,15 @@ pavel@arch:~$ neofetch
 pavel@arch:~$ ./skills --self-assessment
 // самооценка, не сертификат. Go честно отстаёт.
 
-C# / .NET         [██████████████████░░░░]  82%
-ASP.NET Core      [█████████████████░░░░░]  76%
-EF Core / SQL     [███████████████░░░░░░░]  70%
-Python · ML/data  [███████████████░░░░░░░]  66%
-Go                [███████░░░░░░░░░░░░░░░]  32%
-Arch ricing       [█████████████████████░]  94%
+C# / .NET         ━━━━━━━━━━━━━━━━━━────  82%
+ASP.NET Core      ━━━━━━━━━━━━━━━━━─────  76%
+EF Core / SQL     ━━━━━━━━━━━━━━━───────  70%
+Python · ML/data  ━━━━━━━━━━━━━━━───────  66%
+Go                ━━━━━━━───────────────  32%
+Arch ricing       ━━━━━━━━━━━━━━━━━━━━━─  94%
 ```
 
-<img src="spinner.svg" alt="sync"/>
+<img src="assets/spinner.svg" height="22" alt="sync"/>
 
 ```text
 pavel@arch:~$ ls ./projects
@@ -64,4 +64,4 @@ pavel@arch:~$ cat contacts.txt
 
 <sub>↳ write: <a href="https://t.me/username">Telegram</a> · <a href="mailto:you@example.com">Email</a> · <a href="https://hh.ru/resume/xxxxxxxx">hh.ru</a></sub>
 
-<img src="ticker.svg" width="100%" alt="current ops"/>
+<img src="assets/ticker.svg" height="26" alt="current ops"/>

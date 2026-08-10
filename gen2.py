@@ -30,7 +30,7 @@ def box(rows):
 
 def barline(label, pct, lblw, cells=22):
     fill = round(pct / 100 * cells)
-    return f"{pad(label, lblw)}  [{'█'*fill}{'░'*(cells-fill)}]  {pct}%"
+    return f"{pad(label, lblw)}  {'━'*fill}{'─'*(cells-fill)}  {pct}%"
 
 # ---------- content ----------
 banner = pyfiglet.figlet_format("PAVEL", font="ansi_shadow").rstrip("\n").split("\n")
@@ -68,7 +68,7 @@ def write(name, svg):
     with open(os.path.join(ASSETS, name), "w") as f: f.write(svg)
 
 # blinking prompt cursor line
-write("prompt.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 26" {FONT}>
+write("prompt.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" width="300" height="26" viewBox="0 0 300 26" {FONT}>
 <text x="0" y="19" font-size="15" fill="{AMBER}">pavel@arch</text>
 <text x="92" y="19" font-size="15" fill="{MUT}">:~$</text>
 <rect x="132" y="6" width="10" height="16" fill="{AMBER}">
@@ -76,14 +76,14 @@ write("prompt.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300
 </svg>''')
 
 # online chip
-write("online.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 26" {FONT}>
+write("online.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" width="140" height="26" viewBox="0 0 140 26" {FONT}>
 <circle cx="10" cy="13" r="6" fill="{GREEN}">
 <animate attributeName="opacity" values="1;0.2;1" dur="1.3s" repeatCount="indefinite"/></circle>
 <text x="26" y="18" font-size="14" fill="{AMBER}">ONLINE</text>
 </svg>''')
 
 # sync spinner
-write("spinner.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 26" {FONT}>
+write("spinner.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" width="120" height="26" viewBox="0 0 120 26" {FONT}>
 <g transform="translate(11,13)">
 <circle r="8" fill="none" stroke="{MUT}" stroke-width="2" stroke-opacity="0.35"/>
 <path d="M0 -8 A 8 8 0 0 1 8 0" fill="none" stroke="{AMBER}" stroke-width="2" stroke-linecap="round">
@@ -93,7 +93,7 @@ write("spinner.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12
 </svg>''')
 
 # scrolling ops ticker
-write("ticker.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 30" {FONT}>
+write("ticker.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" width="760" height="30" viewBox="0 0 760 30" {FONT}>
 <defs><clipPath id="c"><rect x="0" y="0" width="760" height="30"/></clipPath></defs>
 <g clip-path="url(#c)"><g>
 <text x="0" y="20" font-size="14" fill="{MUT}">
@@ -112,15 +112,15 @@ def block(cmd, lines):
 
 readme = []
 readme.append("```text\n" + "\n".join(banner) + "\n\n  C#/.NET backend  ·  ML practitioner  ·  Arch Linux\n  СПбГУТ '26  ·  Санкт-Петербург\n```")
-readme.append('<img src="assets/online.svg" alt="online"/> &nbsp; <img src="assets/prompt.svg" alt="prompt"/>')
+readme.append('<img src="assets/online.svg" height="22" alt="online"/> &nbsp; <img src="assets/prompt.svg" height="22" alt="prompt"/>')
 readme.append(block("neofetch", about))
 readme.append(block("./skills --self-assessment", ["// самооценка, не сертификат. Go честно отстаёт.", ""] + skill_lines))
-readme.append('<img src="assets/spinner.svg" alt="sync"/>')
+readme.append('<img src="assets/spinner.svg" height="22" alt="sync"/>')
 readme.append(block("ls ./projects", projects))
 readme.append('<sub>↳ open: <a href="https://github.com/Palash-hub/MOCChecker">MOCChecker</a> · nfad <em>(поправь ссылку)</em> · MiniBank <em>(поправь ссылку)</em></sub>')
 readme.append(block("cat contacts.txt", contacts))
 readme.append('<sub>↳ write: <a href="https://t.me/username">Telegram</a> · <a href="mailto:you@example.com">Email</a> · <a href="https://hh.ru/resume/xxxxxxxx">hh.ru</a></sub>')
-readme.append('<img src="assets/ticker.svg" width="100%" alt="current ops"/>')
+readme.append('<img src="assets/ticker.svg" height="26" alt="current ops"/>')
 
 with open(os.path.join(OUT, "README.md"), "w") as f:
     f.write("\n\n".join(readme) + "\n")
