@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 320" font-family="'DejaVu Sans Mono','Courier New',monospace">
+  <defs>
+    <pattern id="scan2" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="1" fill="#000000" fill-opacity="0.20"/>
+    </pattern>
+    <style>
+      text{ fill:#23b45a; }
+      .bright{ fill:#35f07a; } .amber{ fill:#ffb642; } .dim{ fill:#157a3a; }
+      .scr{ animation: fk 6s infinite steps(1); }
+      @keyframes fk{ 0%,100%{opacity:1} 30%{opacity:.93} 30.4%{opacity:1} 70%{opacity:.96} 70.3%{opacity:1} }
+      .cur{ animation: bl 1s steps(1) infinite; }
+      @keyframes bl{ 0%,50%{opacity:1} 51%,100%{opacity:0} }
+      @media (prefers-reduced-motion: reduce){ .scr{animation:none} rect.fill{animation:none} }
+    </style>
+  </defs>
+
+  <rect width="820" height="320" fill="#050a06"/>
+  <rect x="10" y="10" width="800" height="300" rx="14" fill="#07110a" stroke="#157a3a" stroke-opacity="0.6"/>
+
+  <g class="scr">
+    <text x="34" y="46" font-size="14"><tspan class="bright">pavel@arch</tspan>:~$ ./skills --self-assessment</text>
+    <text x="34" y="66" font-size="11" class="dim">// самооценка, не сертификат. Go честно отстаёт.</text>
+
+    <!-- rows: label @ x34, track x=250 w=320 -->
+    <!-- C# / .NET 82 -> 262 -->
+    <text x="34" y="104" font-size="13">C# / .NET</text>
+    <rect x="250" y="92" width="320" height="14" fill="#0c2013"/>
+    <rect class="fill" x="250" y="92" width="0" height="14" fill="#35f07a"><animate attributeName="width" from="0" to="262" dur="1.1s" begin="0.2s" fill="freeze"/></rect>
+    <text x="586" y="104" font-size="13" class="amber">82%</text>
+
+    <!-- ASP.NET Core 76 -> 243 -->
+    <text x="34" y="138" font-size="13">ASP.NET Core</text>
+    <rect x="250" y="126" width="320" height="14" fill="#0c2013"/>
+    <rect class="fill" x="250" y="126" width="0" height="14" fill="#35f07a"><animate attributeName="width" from="0" to="243" dur="1.1s" begin="0.35s" fill="freeze"/></rect>
+    <text x="586" y="138" font-size="13" class="amber">76%</text>
+
+    <!-- EF Core / SQL 70 -> 224 -->
+    <text x="34" y="172" font-size="13">EF Core / SQL</text>
+    <rect x="250" y="160" width="320" height="14" fill="#0c2013"/>
+    <rect class="fill" x="250" y="160" width="0" height="14" fill="#35f07a"><animate attributeName="width" from="0" to="224" dur="1.1s" begin="0.5s" fill="freeze"/></rect>
+    <text x="586" y="172" font-size="13" class="amber">70%</text>
+
+    <!-- Python ML/data 66 -> 211 -->
+    <text x="34" y="206" font-size="13">Python · ML/data</text>
+    <rect x="250" y="194" width="320" height="14" fill="#0c2013"/>
+    <rect class="fill" x="250" y="194" width="0" height="14" fill="#35f07a"><animate attributeName="width" from="0" to="211" dur="1.1s" begin="0.65s" fill="freeze"/></rect>
+    <text x="586" y="206" font-size="13" class="amber">66%</text>
+
+    <!-- Go 32 -> 102 -->
+    <text x="34" y="240" font-size="13">Go</text>
+    <rect x="250" y="228" width="320" height="14" fill="#0c2013"/>
+    <rect class="fill" x="250" y="228" width="0" height="14" fill="#35f07a"><animate attributeName="width" from="0" to="102" dur="1.1s" begin="0.8s" fill="freeze"/></rect>
+    <text x="586" y="240" font-size="13" class="amber">32%</text>
+
+    <!-- Arch ricing 94 -> 301 -->
+    <text x="34" y="274" font-size="13" class="dim">Arch ricing</text>
+    <rect x="250" y="262" width="320" height="14" fill="#0c2013"/>
+    <rect class="fill" x="250" y="262" width="0" height="14" fill="#157a3a"><animate attributeName="width" from="0" to="301" dur="1.1s" begin="0.95s" fill="freeze"/></rect>
+    <text x="586" y="274" font-size="13" class="dim">94%</text>
+
+    <text x="640" y="274" font-size="13">_<tspan class="cur">&#9608;</tspan></text>
+  </g>
+
+  <rect x="10" y="10" width="800" height="300" rx="14" fill="url(#scan2)"/>
+</svg>
